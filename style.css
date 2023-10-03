@@ -48,7 +48,7 @@ nav ul li a:hover{
 }
 
 /* hero page */
-section{
+#hero{
     position: absolute;
 	top: 50%;
 	left:8%;
@@ -59,15 +59,15 @@ section{
 }
 
 
-section div h1{
+#hero div h1{
     font-size: 75px;
 }
 
-section div h3{
+#hero div h3{
     font-size: 25px;
 }
 
-section div p{
+#hero div p{
     font-size: 20px;
 }
 
@@ -88,7 +88,7 @@ section div p{
     transition: 0.5s;
 }
 
-section div img{
+#hero div img{
     width: 600px;
     margin-top: -25px;
 }
@@ -162,3 +162,56 @@ section div img{
     background-color: #121220;
 }
 /* ahir homepage */
+
+
+/* about */
+
+#about{
+    position: absolute;
+	top: 50%;
+	left:25%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+#deskripsi{
+    background-color: #1a1a2c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#sosmed{
+    background-color: #1a1a2c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+#icon{
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#about div p{
+    margin-top: 5px;
+    text-align: start;
+}
+
+#about #img img{
+    width: 300px;
+    margin-top: -25px;
+}
+
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-youtube:hover{
+   color: #f9004d;
+   transition: 2s;
+}

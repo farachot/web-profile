@@ -15,6 +15,9 @@ span{
     color: #f9004d;
 }
 
+/* homepage */
+
+/* navbar */
 header{
     display: flex;
     justify-content: space-between ;
@@ -44,6 +47,7 @@ nav ul li a:hover{
 	transition: .3s;
 }
 
+/* hero page */
 section{
     position: absolute;
 	top: 50%;
@@ -89,6 +93,7 @@ section div img{
     margin-top: -25px;
 }
 
+/* pop up form */
 #popup{
     position: absolute;
     top: 50%;
@@ -156,4 +161,4 @@ section div img{
 #popup .form-element #krm-button:hover{
     background-color: #121220;
 }
-
+/* ahir homepage */

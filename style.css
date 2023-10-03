@@ -2,8 +2,13 @@
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: #121220;
+    box-sizing: border-box;
     color: #F0EDF2;
+}
+
+body{
+    height: 100vh;
+    background-color: #121220;
 }
 
 span{
@@ -69,6 +74,9 @@ section div p{
     height: 30px;
     width: 100px;
     border-style: solid;
+    position: absolute;
+    background-color: #121220;
+    cursor: pointer;
 }
 
 #contact:hover{
@@ -78,6 +86,74 @@ section div p{
 
 section div img{
     width: 600px;
-    position: fixed;
     margin-top: -25px;
 }
+
+#popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    width: 380px;
+    padding: 20px 30px;
+    background-color: #1a1a2c;
+    border-radius: 10px;
+    display: none;
+    transition: ease-in-out 10000ms;
+}
+
+
+#popup #close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+#popup .form h2{
+    text-align: center;
+    margin: 10px 0px 20px;
+    font-size: 25px
+}
+
+#popup .form .form-element{
+    margin: 15px 0px;
+}
+
+
+#popup .form .form-element label{
+    font-size: 14px;
+}
+
+#popup .form .form-element input[type="email"],
+#popup .form .form-element input[type="text"],
+#popup .form .form-element textarea{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+}
+
+#popup .form-element #krm-button{
+    background-color: #f9004d;
+    border-radius: 10px;
+    border-color: #F0EDF2;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#popup .form-element #krm-button:hover{
+    background-color: #121220;
+}
+

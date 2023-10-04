@@ -218,3 +218,31 @@ nav ul li a:hover{
    color: #f9004d;
    transition: 2s;
 }
+/* ahor about page */
+
+/* skill page */
+#skill{
+    text-align: center;
+    position: absolute;
+	top: 50%;
+	left:8%;
+    right: 8%;
+    transform: translateY(-50%);
+}
+
+#skill p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#skill .isi{
+    display: flex;
+    text-align: start;
+    padding: 10px;
+    gap: 20px;
+}
+
+.des p{
+    margin-top: 5px;
+}
+/* ahir skill */

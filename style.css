@@ -223,11 +223,9 @@ nav ul li a:hover{
 /* skill page */
 #skill{
     text-align: center;
-    position: absolute;
-	top: 50%;
 	left:8%;
     right: 8%;
-    transform: translateY(-50%);
+
 }
 
 #skill p{
@@ -246,3 +244,45 @@ nav ul li a:hover{
     margin-top: 5px;
 }
 /* ahir skill */
+
+
+/* blog page */
+#blog{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:8%;
+    right: 8%;
+    transform: translateY(-50%);
+}
+
+#pen img{
+    background-color: #F0EDF2;
+    border-radius: 100px;
+    border: solid #f9004d 5px;
+    width: 75px;
+}
+
+.art{
+    background-color: #121220;
+    border: #F0EDF2 solid;
+    text-align: start;
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    height: 100px;
+}
+
+.art:hover{
+    background-color: #1a1a2c;
+}
+
+.art img{
+    background-color: #F0EDF2;
+}
+/* ahir blog page */

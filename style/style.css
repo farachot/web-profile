@@ -295,6 +295,10 @@ nav ul li a:hover{
 .art h3{
     margin-bottom: 10px;
 }
+
+a{
+    text-decoration: none;
+}
 /* ahir blog page */
 
 /* isi blog */
